@@ -1,14 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
 
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/* tamanho logo */
 .logo {
     width: 250px;
     height: 100px; 
 }
 
+/* fundo header */
 .bgheader {
     background-color: black;
 }
 
-.bgheader2 {
+/* fundo preto de apresentação de imagem */
+.fundoapresenta {
     width: 100%;
     height: 400px;
     text-align: center;
@@ -16,17 +25,21 @@
     background-color: black;
 }
 
+/* centraliza a imagem principal de apresentação */
 .centerimg{
     width: 300px;
     height: 300px;
+    border-radius: 40%;
     text-align: center;
 }
 
-.centralize{
+.maintitle{
     text-align: center;
+    font-size: 70px;
+    font-family: zigzag;
 }
 
-body {
-    padding: 0;
-    margin: 0;
+.container {
+    margin-top: 80px;
+    margin-bottom: 100px;
 }
